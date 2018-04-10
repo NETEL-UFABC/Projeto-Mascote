@@ -25,3 +25,12 @@ O que é sprite?
     O animador criado por mim lê o arquivo JSON, obtem os dados de cada frame e com base neles, olha para o PNG e foca somente no sprite da vez a ser exibido.
 
     O que dá a sensação de animação não é a exibição de UM sprite, até porque o sprite em si é uma imagem estática. O que dá a sensação de animação, então, é a exibição sequencial e na ordem correta desses sprites.
+
+
+
+**** Estrutura de arquivos da biblioteca que ja esta pronta ****
+
+
+A pasta raiz do projeto chama-se SpritesheetLib.
+
+Dentro da raiz encontram-se o arquivo javascript (anim.js) - que é o código fonte da animação - o arquivo html (index.html) - que é o página html que instanciamos os mascotes e, por fim, os arquivos *.json e *.png que correspondem aos mascotes a serem animados.
